@@ -3,7 +3,7 @@ const app = require("../server/app"); // Link to your server file
 const supertest = require("supertest");
 const request = supertest(app);
 import { send } from 'process';
-import 'regenerator-runtime/runtime'
+import 'regenerator-runtime/runtime';
 
 describe('Jest', () => {
     it("Checking to see if Jest works.", () => {
