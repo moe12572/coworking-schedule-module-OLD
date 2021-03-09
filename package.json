@@ -1,0 +1,65 @@
+{
+  "name": "coworking-schedule-module",
+  "description": "This is a calendar module for booking coworking spaces",
+  "author": "Moe Chowdhury",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack --watch",
+    "seed": "node server/seedData.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "babel-preset-airbnb": "^5.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "jest": "^26.6.3",
+    "mime-db": "^1.45.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "node": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "npm": "^6.14.9",
+    "react": "^16.14.0",
+    "react-date-range": "^1.1.3",
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^2.0.0",
+    "supertest": "^6.0.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "wrapper-loader": "^1.0.1"
+  },
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moe12572/coworking-schedule-module.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/moe12572/coworking-schedule-module/issues"
+  },
+  "homepage": "https://github.com/moe12572/coworking-schedule-module#readme"
+}
